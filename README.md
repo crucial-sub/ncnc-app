@@ -1,4 +1,4 @@
-<h1 align="center"> 니콘내콘 과제 </h1>
+<h1 align="center"> 니콘내콘 모바일 웹페이지 클론 </h1>
 
 <h3 align="center"> 서비스 링크: https://ncnc-app-iota.vercel.app/ </h3>
 
@@ -6,70 +6,7 @@
 
 # 👏 프로젝트 소개
 
-> TypeScript와 Next.js를 사용하여 니콘내콘의 모바일 웹페이지를 클론하였습니다.
-
-## 🙋‍♀️🙋‍♂️ 팀원
-
-<table>
-<thead>
-<tr>
-<th><p align="center">프로필</p></th>
-<th><p>이름</p></th>
-<th><p>담당 기능</p></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>
-<img
-src="https://avatars.githubusercontent.com/Ubermensch0608"
-width="100px;"
-alt=""
-/>
-</td>
-<td><b><a href="https://github.com/Ubermensch0608"
->우종원</a></b></sub></td>
-<td>브랜드 페이지, 전반적 리팩토링</td>
-</tr>
-
-<tr>
-<td>
-<img
-src="https://avatars.githubusercontent.com/crucial-sub"
-width="100px;"
-alt=""
-/>
-</td>
-<td><b><a href="https://github.com/crucial-sub"
->박중섭</a></b>
-<td>카테고리 페이지, 배포</td>
-</tr>
-
-<tr>
-<td>
-<img
-src="https://avatars.githubusercontent.com/ttaerrim"
-width="100px;"
-alt=""
-/></td>
-<td><a href="https://github.com/ttaerrim" >이태림</a></td>
-<td>상품 상세 페이지, 마이페이지, 고객센터 </td>
-</tr>
-
-<tr>
-<td align="center">
-<img
-src="https://avatars.githubusercontent.com/penguin311"
-width="100px;"
-alt=""
-/><br /></td>
-<td><b><a href="https://github.com/penguin311"
->임수영</a></b></td>
-<td>메인 페이지, 헤더</td>
-</tr>
-</tbody>
-</table>
+> TypeScript와 Next.js를 사용하여 기프티콘 거래 모바일 반응형 웹페이지를 구현하였습니다.
 
 ## 🚀 스택
 
@@ -146,9 +83,12 @@ $ npm run dev || yarn dev
 
 ## ✨ 구현 사항
 
+> **`맡은 역할`** <br>
+> 카테고리 페이지, 홈 배너 캐러셀 슬라이딩 기능 구현, 마이페이지 메뉴 매끄럽게 움직이도록 구현, 헤더 및 여러 컴포넌트에서 재사용 가능한 컨텐츠박스 구현
+
 -   [x] `Next.js`와 `Typescript` 사용
 -   [x] 니콘내콘 모바일 웹 페이지와 같은 라우팅
--   [ ] 3분 이내의 E2E 테스트 구현
+-   [x] 3분 이내의 E2E 테스트 구현
 -   [x] 재사용 가능한 Container
 
 -   [x] Header
@@ -194,26 +134,8 @@ $ npm run dev || yarn dev
 
 1. 메인 및 카테고리, 브랜드, 상품 상세 페이지
 
-<img width="400" src="https://user-images.githubusercontent.com/28384562/154145083-d5024c30-dbec-4626-a3c1-22a14b8ef00a.gif" />
+<img width="400" src="https://user-images.githubusercontent.com/87363422/160919459-6e6db9d4-133e-4b55-ab60-c1bce6622398.gif" />
 
 2. 마이페이지와 고객 센터
 
 <img width="400" src="https://user-images.githubusercontent.com/28384562/154145176-07ec7cde-020b-4139-9335-65d47a4664e8.gif" />
-
-## 💡 과제 후기
-
-### **우종원** 🍀
-
-트랜디한 React 개발자라면 관심을 가질 TypeScript와 Next.js의 조합으로 멋진 프로젝트를 완성시킬 수 있어 좋았습니다. 특히, 빈번한 API호출과 JSON파일 렌더링을 고민해보면서 앞으로 이 부분에 있어서는 더 자신있게 구현할 수 있을 것 같습니다.
-
-### **박중섭** ✨
-
-CSR과 SSR에 대한 개념을 프로젝트를 진행하며 직접 체감하며 배울 수 있었습니다. 또한 왜 SSR이 SEO에 적합한 렌더링 방식인지 Next js를 활용하며 공부할 수 있었습니다. 또한 CRA와 다르게 라우팅이 디렉토리 구조를 통해 구현된다는 점이 굉장히 흥미로웠습니다.
-
-### **이태림** 🐯
-
-검색 노출, 라우터 등 React의 불편한 점을 개선시킬 수 있는 Next.js를 처음 사용한 프로젝트였기 때문에 의미 있었습니다. Typescript 또한 런타임 전에 에러를 잡을 수 있는 등 Javascript의 한계를 잡아 줄 수 있기 때문에 깊이 공부하면 도움이 될 것이라 생각합니다. SSR, CSR에 대해 더 자세히 공부해 보고 싶습니다.
-
-### **임수영** 🐧
-
-처음 next.js를 사용하였는데 CSR 방식과 SSR 방식의 차이를 체험할 수 있었던 프로젝트였던 것 같습니다.
