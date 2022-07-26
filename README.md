@@ -1,4 +1,4 @@
-<h1 align="center"> 기프티곤 거래 웹애플리케이션 클론 프로젝트 </h1>
+<h1 align="center"> 기프티곤 거래 웹애플리케이션 프로젝트 </h1>
 
 <h3 align="center"> 서비스 링크: https://ncnc-app-iota.vercel.app/ </h3>
 
@@ -132,10 +132,14 @@ $ npm run dev || yarn dev
 
 ## 🗺 한 눈으로 보는 구현 기능
 
-1. 메인 및 카테고리, 브랜드, 상품 상세 페이지
+1. 브랜드 카테고리 페이지
 
-<img width="400" src="https://user-images.githubusercontent.com/87363422/160919459-6e6db9d4-133e-4b55-ab60-c1bce6622398.gif" />
+<img width="400" src="https://user-images.githubusercontent.com/87363422/180955084-96839972-6743-47f4-85af-f4d714d068ea.gif" />
 
-2. 마이페이지와 고객 센터
+2. 메인페이지 배너 캐러셀 슬라이딩
 
-<img width="400" src="https://user-images.githubusercontent.com/28384562/154145176-07ec7cde-020b-4139-9335-65d47a4664e8.gif" />
+<img width="400" src="https://user-images.githubusercontent.com/87363422/180955047-0ea3fc16-aad6-419d-9aef-365e11b5244a.gif" />
+
+3. 마이페이지 메뉴 부드럽게 슬라이딩 되는 메뉴
+
+<img width="400" src="https://user-images.githubusercontent.com/87363422/180955086-de5f5a96-d1b5-4845-a515-8b1fdaa1487c.gif" />
